@@ -1,0 +1,1 @@
+console.log("Day 1 of learning JavaScript! It'll be a fun journey!")
