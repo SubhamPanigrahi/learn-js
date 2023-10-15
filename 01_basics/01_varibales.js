@@ -7,19 +7,22 @@
 
 */
 
-// There are a few ways we can can do that. 
+/*
+JavaScript has three kinds of variable declarations.
+
+var : Declares a variable, optionally initializing it to a value.
+let : Declares a block-scoped, local variable, optionally initializing it to a value.
+const : Declares a block-scoped, read-only named constant.
+*/
 
 
 // First, lets try to create an entity which we don't want to change. A CONSTANT!!
 const userId = 12345;
 /*
-
 userId = 54321 -> TypeError: Assignment to constant variable. 
 Re-assignment of a const varibale is not allowed.
-
 */
 
-// For declaring variables, there are 2 ways...
 let userEmail = "subham@stack.com"
 var userPassword = "12345"
 
@@ -35,7 +38,7 @@ var userPassword = "12345"
 // You can also declare a varible without specifying either var or let... Like this...
 userCity = "Berhampur"
 
-// variables defined but not initislized, when logged, gives "undefined" value
+// variables declared but not initislized, when logged, gives "undefined" value
 let userState;
 
 
@@ -43,7 +46,6 @@ let userState;
 // It displays the values in form of a table like this.
 
 console.table([userId, userEmail, userPassword, userState])
-
 /*
 
     ┌─────────┬────────────────────┐
