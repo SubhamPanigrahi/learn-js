@@ -1,4 +1,4 @@
-// Lets learn about the ways we can declare constants and varibale sin JS
+// Lets learn about the ways we can declare constants and varibales in JS
 
 /*
     Lets do it with an example.
